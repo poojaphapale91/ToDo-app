@@ -17,7 +17,7 @@ function add() {
          
 //close button     
   var span = document.createElement("SPAN");
-  var txt = document.createTextNode("U+1F468 U+1F44D ");
+  var txt = document.createTextNode("\u00D7");
   span.className = "close";
   span.appendChild(txt);
   LI.appendChild(span);
