@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    
+    background-image:url('/img/patternbanner.png');
+    background-color: #040444;
+    background-repeat: repeat;
+  }
+header {
+    padding:30px;
+    text-align: center;
+    color:white;
+}
+h2{
+    text-shadow: 2px 2px yellow;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+em {
+  font-weight:bolder;
+  font-size: 34px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+#box{
+    width:100%;
+    padding:10px;
+    box-shadow: 2px 2px 1px #26c6da;
+    
+}
+  span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+   
+  .delete{
+  background: red;
+    padding: 11px;
+    color:white;
+    cursor:pointer;
+    float:right;
+}
+  
+  strong:hover{
+    background: red;
+    color: aqua;
+  }
+  .flexcontainer{
+    display: flex;
+    height: 87%;
+    width: 87%;
+    margin:0;
+    flex-direction: row;
+    background-color: #26c6da;
+    margin: 7%;
+    
+    
+  }
+  .maincontainer{
+    padding: 0 10%;
+    background-color: white;
+  }
+.container{
+    background-color: #040444;
+    text-align: center;
+    width: 50%;
+    height: 100% auto;
+    margin: auto;
+    padding-top:50px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.seccontainer{
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.firstcontainer{
+    padding-bottom: 20px;
+}
+#button-list {
+  background: aqua;
+ /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, white , aqua);
+    color:red;
+    padding: 10px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+#button-list:hover{
+  background: red;
+  color:aqua;
+}
+#button2-list {
+  background: aqua;
+ /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, white , aqua);
+    color:red;
+    padding: 10px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+#button2-list:hover{
+  background: red;
+  color:aqua;
+}
+
+  ul {
+    margin: 0;
+    padding: 0;
+    
+  }
+ ul li{
+     list-style: none;
+     padding-left: 10px;
+     font-size: 20px;
+     background: #bd0e88;
+    position: relative;
+    line-height: 40px;
+    text-align: left;
+    margin: 5px 0;
+    box-shadow: #f1f1f3;
+    width: 100%;
+    user-select: none;
+    cursor: pointer;  
+  }
+ 
+
+  ul li span{
+      width:50px;
+      border-radius: 7px 0 0px 7px;
+      top:0;
+      right:0;
+      position: relative;
+      text-align: center;
+      float: right;
+  }
+  span {
+    background: white;
+    color:red;
+    cursor:pointer;
+    
+  }
+
+  span:hover{
+    background-color: #f44336;
+    color: white;
+  }
+   span .close {
+    position: relative;
+    right: 0;
+    top: 0;
+    height: auto;
+    width: auto;
+  }
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  
+ 
+  

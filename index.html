@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title> TODOs APP</title>
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/todo.js"></script>
+</head>
+
+<body>
+    <div class="flexcontainer">
+        <div class="maincontainer">
+           <img src="img/todoLogo.jpg" style="width:150px; height:150px">
+           <hr>
+           <em> TODO's List </em>
+           
+            </div>
+    <header class="container">
+        <h2 class="text-c enter"> TODO's List </h2>
+        <div class="firstcontainer">
+            <input type="text" name="text" id="box" value="" required>
+          
+        </div>
+        <div class="seccontainer">
+            <span id="button-list" onclick="add()">Add</span>
+            
+           <span id="button2-list" onclick="deleteall_item();"> Delete All </span>
+           
+            </div>
+            
+        
+            <ul id="list-item" contenteditable="true">
+                <li>
+                
+                </li>
+                
+            </ul>
+        
+        </div>
+</body>
+
+</html>
